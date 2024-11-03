@@ -1,0 +1,36 @@
+// src/styles/Settings.scss
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+   
+    margin: auto; // Centraliza no meio da página
+  }
+  
+  .settings-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .settings-item {
+    margin-bottom: 20px;
+    font-size: 18px; // Tamanho do texto maior para legibilidade
+  
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px; // Espaço entre o texto e o checkbox
+    }
+  
+    input[type="checkbox"] {
+      transform: scale(1.5); // Torna o checkbox maior e mais fácil de interagir
+      cursor: pointer;
+    }
+  }
+  
